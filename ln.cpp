@@ -9,6 +9,7 @@ std::string intToString(int x){
     std::string number="";
     while(x!=0){
         switch(x%10){
+            case 0:number='0'+number; break;
             case 1:number='1'+number; break;
             case 2:number='2'+number; break;
             case 3:number='3'+number; break;
